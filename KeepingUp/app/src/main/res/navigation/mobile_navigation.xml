@@ -3,23 +3,26 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/mobile_navigation"
-    app:startDestination="@+id/nav_home">
+    app:startDestination="@id/nav_topViewed">
 
     <fragment
-        android:id="@+id/nav_home"
-        android:name="com.example.keepingup.ui.home.HomeFragment"
-        android:label="@string/menu_home"
-        tools:layout="@layout/fragment_home" />
-
+        android:id="@+id/nav_whatsHot"
+        android:name="com.example.keepingup.whatsHot"
+        android:label="fragment_whats_hot"
+        tools:layout="@layout/fragment_whats_hot" />
     <fragment
-        android:id="@+id/nav_gallery"
-        android:name="com.example.keepingup.ui.gallery.GalleryFragment"
-        android:label="@string/menu_gallery"
-        tools:layout="@layout/fragment_gallery" />
-
+        android:id="@+id/nav_topViewed"
+        android:name="com.example.keepingup.topViewed"
+        android:label="fragment_top_viewed"
+        tools:layout="@layout/fragment_top_viewed" />
     <fragment
-        android:id="@+id/nav_slideshow"
-        android:name="com.example.keepingup.ui.slideshow.SlideshowFragment"
-        android:label="@string/menu_slideshow"
-        tools:layout="@layout/fragment_slideshow" />
+        android:id="@+id/nav_featured"
+        android:name="com.example.keepingup.featured"
+        android:label="fragment_featured"
+        tools:layout="@layout/fragment_featured" />
+    <fragment
+        android:id="@+id/nav_releaseDate"
+        android:name="com.example.keepingup.releaseDate"
+        android:label="fragment_release_date"
+        tools:layout="@layout/fragment_release_date" />
 </navigation>
