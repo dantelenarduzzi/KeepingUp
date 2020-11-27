@@ -8,7 +8,7 @@
             <LayoutPositions>
               <option name="myPositions">
                 <map>
-                  <entry key="featured">
+                  <entry key="nav_featured">
                     <value>
                       <LayoutPositions>
                         <option name="myPosition">
@@ -20,7 +20,7 @@
                       </LayoutPositions>
                     </value>
                   </entry>
-                  <entry key="releaseDate">
+                  <entry key="nav_releaseDate">
                     <value>
                       <LayoutPositions>
                         <option name="myPosition">
@@ -32,7 +32,7 @@
                       </LayoutPositions>
                     </value>
                   </entry>
-                  <entry key="topViewed">
+                  <entry key="nav_topViewed">
                     <value>
                       <LayoutPositions>
                         <option name="myPosition">
@@ -44,7 +44,7 @@
                       </LayoutPositions>
                     </value>
                   </entry>
-                  <entry key="whatsHot">
+                  <entry key="nav_whatsHot">
                     <value>
                       <LayoutPositions>
                         <option name="myPosition">
