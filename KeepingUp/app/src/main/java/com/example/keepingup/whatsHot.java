@@ -64,6 +64,22 @@ public class whatsHot extends Fragment {
                              Bundle savedInstanceState) {
        View view = inflater.inflate(R.layout.fragment_whats_hot, container, false);
 
+        Button voteButton = view.findViewById(R.id.voteButton);
+        voteButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v){
+                String[] emailAdresses ={"keepingUp@gmail.com"};
+                Intent intent = new Intent (Intent.ACTION_SENDTO);
+                intent.setData(Uri.parse("mailto:"));
+                intent.putExtra(Intent.EXTRA_EMAIL, emailAdresses);
+                intent.putExtra(Intent.EXTRA_SUBJECT,"Community Vote");
+                intent.putExtra(Intent.EXTRA_TEXT, "The game i've been playing the most recently is: ");
+
+                startActivity(intent);
+            }
+
+        });
+
         Button twitchButton = view.findViewById(R.id.twitchButton);
         twitchButton.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -83,6 +99,8 @@ public class whatsHot extends Fragment {
             }
 
         });
+
+
         return view;
     }
 }
