@@ -12,9 +12,34 @@
     <string name="menu_featured">Featured</string>
     <string name="menu_topViewed">Top Viewed</string>
 
+    <!-- titles -->
     <string name="KeepingUp">KeepingUp</string>
+    <string name="whatshotTitle">Whats Hot?</string>
 
 
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+
+    <!-- content -->
+    <string name="Releases">
+        Cyberpunk 2077 [PC, PS4, XBO, Stadia] – December 10th, 2020 \n
+        Hitman 3 [PC, PS5, XSX, PS4, XBO, Stadia] – January 20, 2021\n
+        Everspace 2 [PC] – January TBC, 2021 \n
+        The Pedestrian [PS4] – January TBC, 2021 \n
+        Outriders [PC, PS5, XSX, PS4, XBO] – February 2, 2021 \n
+        The Nioh Collection [PS5] – February 5, 2021 \n
+        Ampersat [PC] – February 6, 2021 \n
+        Little Nightmares 2 [PC, PS4, XBO, Switch] – February 11, 2021 \n
+        Destruction AllStars [PS5] – February TBC, 2021 \n
+        Hiros Escape [PC] – February TBC, 2021 \n
+        Rogue Invader [PC] – February TBC, 2021 \n
+        Harvest Moon: One World [Switch] – March 2, 2021 \n
+        Yakuza: Like a Dragon [PS5] – March 2, 2021 \n
+        Balan Wonderworld [PC, Switch] – March 26, 2021 \n
+        Monster Hunter Rise [Switch] – March 26, 2021 \n
+        Fearmonium [PC] – March TBC, 2021 \n
+       </string>
+
+
+
 </resources>

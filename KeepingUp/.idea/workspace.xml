@@ -12,10 +12,15 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4ad2fe08-88b4-44a8-8514-17c1f1e9e7f1" name="Default Changelist" comment="">
+    <list default="true" id="4ad2fe08-88b4-44a8-8514-17c1f1e9e7f1" name="Default Changelist" comment="Updated calender view">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/keepingup/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/keepingup/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/keepingup/whatsHot.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/keepingup/whatsHot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_featured.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_featured.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_release_date.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_release_date.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_top_viewed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_top_viewed.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_whats_hot.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_whats_hot.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -154,7 +159,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606465396617</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Added calendar view.">
+      <created>1607065849063</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1607065849063</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -162,33 +174,35 @@
     <MESSAGE value="small modifications to the header" />
     <MESSAGE value="linked navigation to main activity." />
     <MESSAGE value="Lots of updates to the UI" />
-    <option name="LAST_COMMIT_MESSAGE" value="Lots of updates to the UI" />
+    <MESSAGE value="Added calendar view." />
+    <MESSAGE value="Updated calender view" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated calender view" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="985" y="90" key="CommitChangelistDialog2" timestamp="1606465395145">
+    <state x="985" y="90" key="CommitChangelistDialog2" timestamp="1607569131187">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="985" y="90" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1606465395145" />
-    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1607062362217">
+    <state x="985" y="90" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1607569131187" />
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1607568922075">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1607062362217" />
-    <state width="1876" height="281" key="GridCell.Tab.0.bottom" timestamp="1607065207630">
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1607568922075" />
+    <state width="1215" height="236" key="GridCell.Tab.0.bottom" timestamp="1607569131339">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="281" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1607065207630" />
-    <state width="1876" height="281" key="GridCell.Tab.0.center" timestamp="1607065207629">
+    <state width="1215" height="236" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1607569131339" />
+    <state width="1215" height="236" key="GridCell.Tab.0.center" timestamp="1607569131339">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="281" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1607065207629" />
-    <state width="1876" height="281" key="GridCell.Tab.0.left" timestamp="1607065207629">
+    <state width="1215" height="236" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1607569131339" />
+    <state width="1215" height="236" key="GridCell.Tab.0.left" timestamp="1607569131339">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="281" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1607065207629" />
-    <state width="1876" height="281" key="GridCell.Tab.0.right" timestamp="1607065207629">
+    <state width="1215" height="236" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1607569131339" />
+    <state width="1215" height="236" key="GridCell.Tab.0.right" timestamp="1607569131339">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="281" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1607065207629" />
+    <state width="1215" height="236" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1607569131339" />
     <state x="974" y="264" key="IDE.errors.dialog" timestamp="1605710140953">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

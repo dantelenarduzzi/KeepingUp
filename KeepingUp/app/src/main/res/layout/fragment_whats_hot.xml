@@ -9,6 +9,12 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:layout_gravity="center_vertical"
+        android:fontFamily="casual"
+        android:gravity="center|top"
+        android:text="@string/whatshotTitle"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        android:textStyle="bold" />
 
 </FrameLayout>
