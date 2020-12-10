@@ -8,71 +8,40 @@
 
     <!-- TODO: Update blank fragment layout -->
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_gravity="center_vertical"
-        android:layout_marginStart="2dp"
-        android:layout_marginTop="4dp"
-        android:fontFamily="sans-serif-medium"
-        android:gravity="center|top"
-        android:text="@string/whatshotTitle"
-        android:textColor="#000000"
-        android:textSize="24sp"
-        android:textStyle="bold" />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_gravity="center_vertical"
-        android:layout_marginStart="25dp"
-        android:layout_marginTop="63dp"
-        android:fontFamily="casual"
-        android:gravity="start"
-        android:text="@string/whatsHotContent"
-        android:textColor="#000000"
-        android:textSize="14sp"
-        android:textStyle="bold" />
-
     <Button
         android:id="@+id/steamButton"
         android:layout_width="match_parent"
-        android:layout_height="58dp"
+        android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginStart="1dp"
-        android:layout_marginTop="193dp"
-        android:layout_marginEnd="3dp"
+        android:layout_marginStart="-2dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="2dp"
         android:text="@string/whatshotSteam" />
 
     <Button
         android:id="@+id/twitchButton"
         android:layout_width="match_parent"
-        android:layout_height="58dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
-        android:layout_marginTop="250dp"
-        android:layout_marginEnd="3dp"
+        android:layout_marginStart="-1dp"
+        android:layout_marginTop="57dp"
+        android:layout_marginEnd="1dp"
         android:text="@string/whatshotTwitch" />
 
     <TextView
-        android:layout_width="397dp"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_centerInParent="true"
-        android:layout_marginStart="6dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginBottom="356dp"
+        android:layout_marginStart="-1dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="424dp"
         android:fontFamily="casual"
         android:text="@string/whatsHotCommunity"
         android:textColor="#000000"
@@ -85,8 +54,9 @@
         android:layout_height="160dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="-2dp"
-        android:layout_marginBottom="201dp"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="6dp"
+        android:layout_marginBottom="284dp"
         android:src="@drawable/controller" />
 
     <TextView
@@ -110,9 +80,9 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="126dp"
-        android:layout_marginEnd="11dp"
-        android:layout_marginBottom="200dp"
+        android:layout_marginStart="134dp"
+        android:layout_marginEnd="3dp"
+        android:layout_marginBottom="283dp"
         android:fontFamily="monospace"
         android:gravity="center"
         android:text="@string/gameOfWeek"
