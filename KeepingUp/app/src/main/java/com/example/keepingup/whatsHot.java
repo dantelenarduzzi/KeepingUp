@@ -1,5 +1,7 @@
 package com.example.keepingup;
 
+import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;
@@ -7,6 +9,7 @@ import androidx.fragment.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -59,7 +62,27 @@ public class whatsHot extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_whats_hot, container, false);
+       View view = inflater.inflate(R.layout.fragment_whats_hot, container, false);
+
+        Button twitchButton = view.findViewById(R.id.twitchButton);
+        twitchButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v){
+                String url = "https://www.twitch.tv/directory";
+                startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse(url)));
+                }
+
+        });
+
+        Button steamButton = view.findViewById(R.id.steamButton);
+        steamButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v){
+                String url = "https://steamcharts.com/";
+                startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse(url)));
+            }
+
+        });
+        return view;
     }
 }

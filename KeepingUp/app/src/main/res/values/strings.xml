@@ -15,6 +15,9 @@
     <!-- titles -->
     <string name="KeepingUp">KeepingUp</string>
     <string name="whatshotTitle">Whats Hot?</string>
+    <string name="whatshotTwitch">Top games on twitch</string>
+    <string name="whatshotSteam">Top played Steam Charts</string>
+
 
 
 
@@ -39,6 +42,13 @@
         Monster Hunter Rise [Switch] – March 26, 2021 \n
         Fearmonium [PC] – March TBC, 2021 \n
        </string>
+    <string name="whatsHotContent">
+        Lets take a dive into some analytics and look at what games are \n
+        topping the charts at the moment. If you are in a draught and arent sure what \n
+        to play next go ahead and give these games a try.
+
+
+    </string>
 
 
 
