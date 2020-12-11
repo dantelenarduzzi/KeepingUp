@@ -11,6 +11,7 @@
     <string name="menu_releaseDate">Release Date</string>
     <string name="menu_featured">Featured</string>
     <string name="menu_topViewed">Top Viewed</string>
+    <string name="menu_credits">Credits</string>
 
     <!-- titles -->
     <string name="KeepingUp">KeepingUp</string>
@@ -19,6 +20,8 @@
     <string name="whatshotSteam">Top played Steam Charts</string>
     <string name="emailus">Community vote</string>
     <string name="gameOfWeek">CyberPunk 2077</string>
+    <string name="map">Our Location</string>
+    <string name="phone">Call us!</string>
 
 
     <!-- content -->
@@ -46,9 +49,11 @@
         to play next go ahead and give these games a try.
     </string>
     <string name="whatsHotCommunity">The communities game of the week award goes to…</string>
-
     <string name="whatsHotEmail">What game have you been diving into lately? Send us an email and let us know for a chance for your game to be featured!</string>
-    <!-- TODO: Remove or change this placeholder text -->
+
+
+    <string name="creditsText">Launcher Icon: From Flickr \n Link:  https://www.flickr.com/photos/30478819@N08/50287793628/in/photostream/
+icon \n whats hot picture:From Pixabay \n Link:  https://pixabay.com/illustrations/game-gaming-gaming-console-gamer-1926906/  </string>
     <string name="hello_blank_fragment">Hello blank fragment</string>
 
 </resources>

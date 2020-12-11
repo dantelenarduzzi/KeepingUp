@@ -1,5 +1,7 @@
 package com.example.keepingup;
 
+import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;
@@ -7,6 +9,7 @@ import androidx.fragment.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -58,7 +61,29 @@ public class Credits extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_credits, container, false);
+
+        View view  =  inflater.inflate(R.layout.fragment_credits, container, false);
+        Button Phone = view.findViewById(R.id.PhoneButton);
+        Phone.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Uri number = Uri.parse("tel:" + 519199804);
+                Intent intent = new Intent(Intent.ACTION_DIAL, number);
+                startActivity(intent);
+
+            }
+        });
+
+        Button location = view.findViewById(R.id.MapButton);
+        location.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Uri location = Uri.parse("geo:42.307547835,-82.966868267(My Location!)");
+                Intent intent = new Intent(Intent.ACTION_VIEW, location);
+                startActivity(intent);
+
+            }
+        });
+        return view;
     }
 }

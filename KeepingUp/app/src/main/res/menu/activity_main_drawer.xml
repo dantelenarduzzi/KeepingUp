@@ -20,6 +20,9 @@
             android:id="@+id/nav_releaseDate"
             android:icon="@drawable/ic_baseline_date_range_24"
             android:title="@string/menu_releaseDate" />
-
+        <item
+            android:id="@+id/nav_credits"
+            android:icon="@drawable/ic_baseline_privacy_tip_24"
+            android:title="@string/menu_credits" />
     </group>
 </menu>

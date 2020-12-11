@@ -15,15 +15,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4ad2fe08-88b4-44a8-8514-17c1f1e9e7f1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/keepingup/Credits.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/keepingup/featuredFragment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_credits.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_featured2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_baseline_privacy_tip_24.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/assetWizardSettings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/assetWizardSettings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/navEditor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/navEditor.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/keepingup/featured.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/keepingup/featured.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_featured.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_featured.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_release_date.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_release_date.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/keepingup/Credits.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/keepingup/Credits.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/keepingup/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/keepingup/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_credits.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_credits.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/menu/activity_main_drawer.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/menu/activity_main_drawer.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/navigation/mobile_navigation.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/navigation/mobile_navigation.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
     </list>
@@ -233,7 +232,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607653783737</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="added view pager to featured and also added content">
+      <created>1607673272617</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1607673272617</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -248,7 +254,8 @@
     <MESSAGE value="Added email button to whatsHot, also added a game of the week section" />
     <MESSAGE value="fixed spacing issues in whatsHot" />
     <MESSAGE value="Fixed release Date and added a listview to it" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed release Date and added a listview to it" />
+    <MESSAGE value="added view pager to featured and also added content" />
+    <option name="LAST_COMMIT_MESSAGE" value="added view pager to featured and also added content" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2785" y="226" key="#com.intellij.ide.util.MemberChooser" timestamp="1607663449825">
@@ -264,34 +271,34 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="707" y="354" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1607576752446" />
-    <state x="92" y="92" width="1736" height="856" key="AVDManager" timestamp="1607579363503">
+    <state x="92" y="92" width="1736" height="856" key="AVDManager" timestamp="1607688877730">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="92" y="92" width="1736" height="856" key="AVDManager/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1607579363503" />
-    <state x="985" y="90" key="CommitChangelistDialog2" timestamp="1607653782078">
+    <state x="92" y="92" width="1736" height="856" key="AVDManager/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1607688877730" />
+    <state x="985" y="90" key="CommitChangelistDialog2" timestamp="1607673269529">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="985" y="90" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1607653782078" />
+    <state x="985" y="90" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1607673269529" />
     <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1607669330487">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1607669330487" />
-    <state width="1876" height="281" key="GridCell.Tab.0.bottom" timestamp="1607579904914">
+    <state width="1876" height="281" key="GridCell.Tab.0.bottom" timestamp="1607681354460">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="281" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1607579904914" />
-    <state width="1876" height="281" key="GridCell.Tab.0.center" timestamp="1607579904914">
+    <state width="1876" height="281" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1607681354460" />
+    <state width="1876" height="281" key="GridCell.Tab.0.center" timestamp="1607681354459">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="281" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1607579904914" />
-    <state width="1876" height="281" key="GridCell.Tab.0.left" timestamp="1607579904914">
+    <state width="1876" height="281" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1607681354459" />
+    <state width="1876" height="281" key="GridCell.Tab.0.left" timestamp="1607681354459">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="281" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1607579904914" />
-    <state width="1876" height="281" key="GridCell.Tab.0.right" timestamp="1607579904914">
+    <state width="1876" height="281" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1607681354459" />
+    <state width="1876" height="281" key="GridCell.Tab.0.right" timestamp="1607681354460">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="281" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1607579904914" />
+    <state width="1876" height="281" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1607681354460" />
     <state x="974" y="264" key="IDE.errors.dialog" timestamp="1605710140953">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

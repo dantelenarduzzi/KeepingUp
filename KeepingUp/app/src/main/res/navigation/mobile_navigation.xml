@@ -26,8 +26,8 @@
         android:label="Release Date"
         tools:layout="@layout/fragment_release_date" />
     <fragment
-        android:id="@+id/credits"
+        android:id="@+id/nav_credits"
         android:name="com.example.keepingup.Credits"
-        android:label="fragment_credits"
+        android:label="Credits"
         tools:layout="@layout/fragment_credits" />
 </navigation>
