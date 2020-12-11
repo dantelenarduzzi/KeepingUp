@@ -15,7 +15,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4ad2fe08-88b4-44a8-8514-17c1f1e9e7f1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/keepingup/releaseDateItem.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/keepingup/releaseDate.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/keepingup/releaseDate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_release_date.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_release_date.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_whats_hot.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_whats_hot.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -41,6 +44,13 @@
       </state>
     </system>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
@@ -57,11 +67,14 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/AndroidStudioProjects/ListViewGame" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.example.keepingup" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\dante\Documents\GitHub\KeepingUp\KeepingUp\app\src\main\res\drawable-v24" />
     </key>
@@ -199,7 +212,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607579206425</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="fixed spacing issues in whatsHot">
+      <created>1607579796916</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1607579796916</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -212,13 +232,18 @@
     <MESSAGE value="Updated calender view" />
     <MESSAGE value="Added content to whatsHot" />
     <MESSAGE value="Added email button to whatsHot, also added a game of the week section" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added email button to whatsHot, also added a game of the week section" />
+    <MESSAGE value="fixed spacing issues in whatsHot" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed spacing issues in whatsHot" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="865" y="226" key="#com.intellij.ide.util.MemberChooser" timestamp="1607570030914">
+    <state x="865" y="226" key="#com.intellij.ide.util.MemberChooser" timestamp="1607652606650">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="865" y="226" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1607570030914" />
+    <state x="865" y="226" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1607652606650" />
+    <state x="743" y="389" width="433" height="268" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1607648770981">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="743" y="389" width="433" height="268" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1607648770981" />
     <state x="707" y="354" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1607576752446">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -227,30 +252,30 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="92" y="92" width="1736" height="856" key="AVDManager/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1607579363503" />
-    <state x="985" y="90" key="CommitChangelistDialog2" timestamp="1607579199333">
+    <state x="985" y="90" key="CommitChangelistDialog2" timestamp="1607579795934">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="985" y="90" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1607579199333" />
-    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1607575922991">
+    <state x="985" y="90" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1607579795934" />
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1607648403032">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1607575922991" />
-    <state width="1876" height="239" key="GridCell.Tab.0.bottom" timestamp="1607577024041">
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1607648403031" />
+    <state width="1876" height="281" key="GridCell.Tab.0.bottom" timestamp="1607579904914">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="239" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1607577024041" />
-    <state width="1876" height="239" key="GridCell.Tab.0.center" timestamp="1607577024041">
+    <state width="1876" height="281" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1607579904914" />
+    <state width="1876" height="281" key="GridCell.Tab.0.center" timestamp="1607579904914">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="239" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1607577024041" />
-    <state width="1876" height="239" key="GridCell.Tab.0.left" timestamp="1607577024040">
+    <state width="1876" height="281" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1607579904914" />
+    <state width="1876" height="281" key="GridCell.Tab.0.left" timestamp="1607579904914">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="239" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1607577024040" />
-    <state width="1876" height="239" key="GridCell.Tab.0.right" timestamp="1607577024041">
+    <state width="1876" height="281" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1607579904914" />
+    <state width="1876" height="281" key="GridCell.Tab.0.right" timestamp="1607579904914">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="239" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1607577024041" />
+    <state width="1876" height="281" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1607579904914" />
     <state x="974" y="264" key="IDE.errors.dialog" timestamp="1605710140953">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -259,6 +284,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="853" y="465" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1606461807462" />
+    <state x="803" y="277" key="refactoring.ChangeSignatureDialog" timestamp="1607651949959">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="803" y="277" key="refactoring.ChangeSignatureDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1607651949959" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1607064138737">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

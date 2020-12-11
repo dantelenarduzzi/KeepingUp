@@ -7,6 +7,11 @@ import androidx.fragment.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ArrayAdapter;
+import android.widget.ListView;
+import android.widget.TextView;
+
+import java.util.ArrayList;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -19,6 +24,8 @@ public class releaseDate extends Fragment {
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
     private static final String ARG_PARAM1 = "param1";
     private static final String ARG_PARAM2 = "param2";
+
+    TextView description;
 
     // TODO: Rename and change types of parameters
     private String mParam1;
@@ -58,8 +65,30 @@ public class releaseDate extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
+       View view =  inflater.inflate(R.layout.fragment_release_date, container, false);
+        final ListView listView = view.findViewById(R.id.releaseDateL);
 
-        // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_release_date, container, false);
+        ArrayList<releaseDateItem> releaseDateItemArrayList = new ArrayList<>();
+        releaseDateItemArrayList.add(new releaseDateItem("Cyberpunk 2077 [PC, PS4, XBO, Stadia] - December 10th, 2020."));
+        releaseDateItemArrayList.add(new releaseDateItem("Hitman 3 [PC, PS5, XSX, PS4, XBO, Stadia] - January 20, 2021"));
+        releaseDateItemArrayList.add(new releaseDateItem("Everspace 2 [PC] - January TBC, 2021 "));
+        releaseDateItemArrayList.add(new releaseDateItem("The Pedestrian [PS4] - January TBC, 2021"));
+        releaseDateItemArrayList.add(new releaseDateItem("Outriders [PC, PS5, XSX, PS4, XBO] - February 2, 2021"));
+        releaseDateItemArrayList.add(new releaseDateItem("The Nioh Collection [PS5] - February 5, 2021"));
+        releaseDateItemArrayList.add(new releaseDateItem("Ampersat [PC] - February 6, 2021"));
+        releaseDateItemArrayList.add(new releaseDateItem("Little Nightmares 2 [PC, PS4, XBO, Switch] - February 11, 2021"));
+        releaseDateItemArrayList.add(new releaseDateItem("Destruction AllStars [PS5] - February TBC, 2021"));
+        releaseDateItemArrayList.add(new releaseDateItem("Hiros Escape [PC] - February TBC, 2021 "));
+        releaseDateItemArrayList.add(new releaseDateItem("Rogue Invader [PC] - February TBC, 2021 "));
+        releaseDateItemArrayList.add(new releaseDateItem("Harvest Moon: One World [Switch] - March 2, 2021"));
+        releaseDateItemArrayList.add(new releaseDateItem("Yakuza: Like a Dragon [PS5] - March 2, 2021 "));
+        releaseDateItemArrayList.add(new releaseDateItem("Balan Wonderworld [PC, Switch] - March 26, 2021"));
+        releaseDateItemArrayList.add(new releaseDateItem("Monster Hunter Rise [Switch] - March 26, 2021"));
+        releaseDateItemArrayList.add(new releaseDateItem("Fearmonium [PC] - March TBC, 2021"));
+
+        ArrayAdapter arrayAdapter = new ArrayAdapter(getContext(), android.R.layout.simple_list_item_1,releaseDateItemArrayList);
+
+        listView.setAdapter(arrayAdapter);
+        return view;
     }
 }
