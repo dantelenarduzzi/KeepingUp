@@ -10,15 +10,17 @@
     <!-- TODO: Update blank fragment layout -->
 
 
-    <ListView
-        android:id="@+id/releaseDateL"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_weight="1" />
-
     <CalendarView
         android:id="@+id/calendarView"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_weight="1" />
+
+    <ListView
+        android:id="@+id/releaseDateL"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:clickable="false" />
+
 </LinearLayout>

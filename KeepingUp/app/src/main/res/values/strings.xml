@@ -21,10 +21,6 @@
     <string name="gameOfWeek">CyberPunk 2077</string>
 
 
-
-
-
-
     <!-- content -->
     <string name="Releases">
         Cyberpunk 2077 [PC, PS4, XBO, Stadia] – December 10th, 2020 \n
@@ -52,5 +48,7 @@
     <string name="whatsHotCommunity">The communities game of the week award goes to…</string>
 
     <string name="whatsHotEmail">What game have you been diving into lately? Send us an email and let us know for a chance for your game to be featured!</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 
 </resources>
